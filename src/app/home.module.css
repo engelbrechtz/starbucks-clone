@@ -1,0 +1,6 @@
+.section_wrapper_grid {
+}
+
+.section_wrapper_grid .section_container {
+  display: grid;
+}

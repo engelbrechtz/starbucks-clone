@@ -1,0 +1,110 @@
+.signin_container {
+  width: 100%;
+  height: 100vh;
+}
+
+.signin_container .signin_content {
+}
+
+.signin_container header {
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.612);
+  box-shadow: 1px rgba(0, 0, 0, 0.417);
+  padding: 20px;
+}
+
+.signin_container .signin_content {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.signin_container .signin_content .signin_form {
+  width: 400px;
+  height: 400px;
+  box-shadow: 0px 0px 10px 0px lightgrey;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+  margin: auto;
+  position: relative;
+  top: 40px;
+}
+
+.signin_container .signin_content .signin_form .signin_input_content {
+}
+
+.signin_container .signin_content .signin_form .signin_input_content input {
+  padding: 15px;
+  margin: 20px;
+  margin-top: 10px;
+  display: flex;
+  position: relative;
+  width: 20rem;
+  justify-content: center;
+  margin: auto;
+  top: 30px;
+}
+
+.signin_container
+  .signin_content
+  .signin_form
+  .signin_input_content
+  button[type="submit"] {
+  background: var(--green-shade-color);
+  width: 300px;
+  height: 50px;
+  position: relative;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  border: none;
+  border-radius: 10px;
+  top: 60px;
+}
+
+.signin_container
+  .signin_content
+  .signin_form
+  .signin_input_content
+  button[type="submit"]:hover {
+  background: var(--green-shade-color-hover);
+}
+
+.signin_container
+  .signin_content
+  .signin_form
+  .signin_input_content
+  input[type="email"] {
+  margin-bottom: 10px;
+}
+
+.box_info_container {
+  text-align: center;
+  justify-content: center;
+  width: 300px;
+  height: 100px;
+  margin: auto;
+  margin-top: 200px;
+}
+
+.box_info_container .info_title {
+  color: var(--green-shade-color);
+}
+
+.box_info_container .btn_signin {
+}
+
+.signin_container .checkbox_container {
+  display: inline-flex;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.signin_container
+  .signin_content
+  .signin_form
+  .signin_input_content
+  input[type="checkbox"] {
+}
