@@ -8,13 +8,6 @@ export default function Page() {
     <>
       <main className={styles.seciton_wrapper_grid}>
         <section className={styles.section_container}>
-          <Image
-            src={coffee_photo}
-            width={100}
-            height={100}
-            loading="lazy"
-            draggable={false}
-          />
           <div className={styles.section_content_wrapper}>
             <h1>Talk about refreshing</h1>
             <p>
@@ -23,15 +16,13 @@ export default function Page() {
               Dragonfruit.
             </p>
           </div>
-        </section>
-        <section className={styles.section_container}>
-          <Image
-            src={treat_banner_two}
-            width={100}
-            height={100}
+          {/* <Image
+            src={coffee_photo}
+            width={500}
+            height={500}
             loading="lazy"
             draggable={false}
-          />
+          /> */}
         </section>
       </main>
     </>
