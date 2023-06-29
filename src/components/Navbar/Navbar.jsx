@@ -4,6 +4,7 @@ import styles from "./navbar.module.css";
 import Button from "../Button/Button";
 import Image from "next/image";
 import Logo from "@/app/images/starbuckslogo.png";
+import { useEffect, useRef, useState } from "react";
 
 const Navbar = () => {
   return (

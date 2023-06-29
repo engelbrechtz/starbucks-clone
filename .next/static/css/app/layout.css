@@ -1,0 +1,107 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[3]!./src/components/Button/button.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.button_button__w09S0 {
+  width: 100px;
+  height: 30px;
+  border-radius: 100px;
+  border: none;
+  list-style-type: none;
+  background: var(white);
+}
+
+.button_button__w09S0:hover {
+  background: black;
+  color: white;
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[3]!./src/components/Navbar/navbar.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.navbar_navbar_container__JdVYK {
+  width: 100%;
+  height: 10vh;
+  background: white;
+  border-bottom: 1px solid lightgray;
+}
+
+.navbar_navbar_container__JdVYK .navbar_list_content__I4c_p {
+  display: flex;
+  margin-left: 100px;
+  position: relative;
+  top: -60px;
+}
+
+.navbar_navbar_container__JdVYK .navbar_nav_logo_wrapper__48icg {
+  margin: 20px;
+}
+
+.navbar_navbar_container__JdVYK .navbar_list_content__I4c_p li {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.navbar_navbar_container__JdVYK .navbar_list_content__I4c_p li a {
+  color: black;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.navbar_navbar_container__JdVYK .navbar_list_content__I4c_p li a:hover {
+  color: var(--green-shade-color);
+}
+
+.navbar_navbar_container__JdVYK .navbar_nav_menu_button__8rjJx {
+  display: flex;
+  margin: 20px;
+  position: relative;
+  top: -105px;
+  justify-content: space-between;
+  margin-left: 84%;
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[3]!./src/components/Footer/footer.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.footer_footer_section__UvaT6 {
+  display: flex;
+}
+
+.footer_footer_section__UvaT6 .footer_footer_container__JVIbS {
+  display: inline-flex;
+}
+
+.footer_footer_section__UvaT6 .footer_footer_container__JVIbS .footer_footer_content__Z_sdy {
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[12].use[3]!./src/app/globals.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************/
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+:root {
+  --green-shade-color: #00704a;
+  --green-shade-color-hover: #00704bb9;
+  --black-shade-color: #000;
+  --white-color: #fff;
+  --yellow-skin-color: #eac784;
+  --light-grey-color: #f1ff67;
+  --pink-color: #eb81a5;
+  --colorBlack70: rgba(0, 0, 0, 0.7);
+  --colorBlack80: rgba(0, 0, 0, 0.8);
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+

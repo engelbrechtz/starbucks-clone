@@ -1,0 +1,10 @@
+.footer_section {
+  display: flex;
+}
+
+.footer_section .footer_container {
+  display: inline-flex;
+}
+
+.footer_section .footer_container .footer_content {
+}
