@@ -3,8 +3,9 @@
 }
 
 .footer_section .footer_container {
-  display: inline-flex;
 }
 
 .footer_section .footer_container .footer_content {
+  display: flex;
+  justify-content: space-between;
 }

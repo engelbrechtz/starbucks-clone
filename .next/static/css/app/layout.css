@@ -71,10 +71,11 @@
 }
 
 .footer_footer_section__UvaT6 .footer_footer_container__JVIbS {
-  display: inline-flex;
 }
 
 .footer_footer_section__UvaT6 .footer_footer_container__JVIbS .footer_footer_content__Z_sdy {
+  display: flex;
+  justify-content: space-between;
 }
 
 /*!***************************************************************************************************************************************************************************************************************************************************************!*\
