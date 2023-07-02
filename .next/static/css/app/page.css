@@ -15,43 +15,43 @@
   display: grid;
 }
 
-.home_seciton_wrapper_grid__sVVbh .home_section_container__Cw8XY .home_section_content_wrapper__utkNV {
-  background: var(--white-color-fade);
-  border: 1px solid var(--white-color-fade);
-  box-shadow: 0px 0px 2px 0px black;
-  width: 60vh;
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[3]!./src/components/Card/card.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.card_card_container__jjTnK {
+  width: 80%;
   height: 70vh;
-  border-radius: 2px;
+  background-color: #eb81a5;
+  display: flex;
+  margin: auto;
+  position: relative;
+  top: 30px;
+  border: 1px solid black;
+}
+
+.card_card_container__jjTnK .card_card_content__2NhXT {
+  display: flex;
+}
+
+.card_card_container__jjTnK .card_card_content__2NhXT .card_card_content_info__bkYfF {
   text-align: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin: 40px;
-  flex-direction: row;
+  margin-top: 80px;
 }
 
-.home_seciton_wrapper_grid__sVVbh .home_section_container__Cw8XY .home_section_content_wrapper__utkNV h1 {
-  margin-top: 25%;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+.card_card_container__jjTnK .card_card_content__2NhXT .card_card_content_info__bkYfF h1 {
+  font-size: 40px;
+  padding: 10px;
+  color: var(--text-color-fade);
 }
-
-.home_seciton_wrapper_grid__sVVbh .home_section_container__Cw8XY .home_section_content_wrapper__utkNV p {
-  letter-spacing: 2px;
+.card_card_container__jjTnK .card_card_content__2NhXT .card_card_content_info__bkYfF p {
+  font-size: 17px;
+  letter-spacing: 1px;
+  color: var(--text-color-fade);
   line-height: 25px;
 }
 
-.home_seciton_wrapper_grid__sVVbh
-  .home_section_container__Cw8XY
-  .home_section_content_wrapper__utkNV
-  .home_wrapper_image__oKelf {
-  left: 60vh;
-  top: -25vh;
-  position: relative;
-}
-
-.home_section_wrapper_grid__JV3tN .home_section_container__Cw8XY .home_section_content_wrapper__utkNV {
-}
-
-.home_section_wrapper_grid__JV3tN .home_section_container__Cw8XY img {
+.card_card_container__jjTnK .card_card_content__2NhXT .card_banner_image__BPQF4 {
+  display: inline-flex;
 }
 
 /*!*********************************************************************************************************************************************************************************************************************************************************************************!*\

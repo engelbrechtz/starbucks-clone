@@ -1,0 +1,35 @@
+.card_container {
+  width: 80%;
+  height: 70vh;
+  background-color: #eb81a5;
+  display: flex;
+  margin: auto;
+  position: relative;
+  top: 30px;
+  border: 1px solid black;
+}
+
+.card_container .card_content {
+  display: flex;
+}
+
+.card_container .card_content .card_content_info {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.card_container .card_content .card_content_info h1 {
+  font-size: 40px;
+  padding: 10px;
+  color: var(--text-color-fade);
+}
+.card_container .card_content .card_content_info p {
+  font-size: 17px;
+  letter-spacing: 1px;
+  color: var(--text-color-fade);
+  line-height: 25px;
+}
+
+.card_container .card_content .banner_image {
+  display: inline-flex;
+}
