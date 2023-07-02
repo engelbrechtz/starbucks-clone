@@ -9,11 +9,11 @@
   display: flex;
   margin-left: 100px;
   position: relative;
-  top: -60px;
+  top: -50px;
 }
 
 .navbar_container .nav_logo_wrapper {
-  margin: 20px;
+  margin: 10px;
 }
 
 .navbar_container .list_content li {
@@ -41,4 +41,15 @@
   top: -105px;
   justify-content: space-between;
   margin-left: 84%;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar_container {
+    width: 100%;
+  }
+
+  .navbar_container .nav_menu_button {
+    display: none;
+    justify-content: space-between;
+  }
 }

@@ -29,11 +29,11 @@
   display: flex;
   margin-left: 100px;
   position: relative;
-  top: -60px;
+  top: -50px;
 }
 
 .navbar_navbar_container__JdVYK .navbar_nav_logo_wrapper__48icg {
-  margin: 20px;
+  margin: 10px;
 }
 
 .navbar_navbar_container__JdVYK .navbar_list_content__I4c_p li {
@@ -63,20 +63,20 @@
   margin-left: 84%;
 }
 
+@media screen and (max-width: 768px) {
+  .navbar_navbar_container__JdVYK {
+    width: 100%;
+  }
+
+  .navbar_navbar_container__JdVYK .navbar_nav_menu_button__8rjJx {
+    display: none;
+    justify-content: space-between;
+  }
+}
+
 /*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[3]!./src/components/Footer/footer.module.css ***!
   \*********************************************************************************************************************************************************************************************************************************************************************************/
-.footer_footer_section__UvaT6 {
-  display: flex;
-}
-
-.footer_footer_section__UvaT6 .footer_footer_container__JVIbS {
-}
-
-.footer_footer_section__UvaT6 .footer_footer_container__JVIbS .footer_footer_content__Z_sdy {
-  display: flex;
-  justify-content: space-between;
-}
 
 /*!***************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[12].use[3]!./src/app/globals.css ***!
@@ -91,6 +91,7 @@
 
 :root {
   --green-shade-color: #00704a;
+  --button-color: #00754a;
   --green-shade-color-hover: #00704bb9;
   --black-shade-color: #000;
   --white-color: #fff;
